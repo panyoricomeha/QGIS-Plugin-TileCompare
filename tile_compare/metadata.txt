@@ -1,0 +1,18 @@
+[general]
+name=Tile Compare
+qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+description=Display raster tiles stored in zoom level folders ({z}/{x}/{y}) and import XY attribute tables as points linked to the tiles
+description[ja]=ズームレベルフォルダ ({z}/{x}/{y}) 構成のラスタタイルを表示し、XY属性テーブルをタイルに紐づいた点として取り込みます
+about=Register local tile folders, show them through a built-in local tile server (fast loading, white margins made transparent), and import attribute tables with x / y or longitude / latitude columns from a database, file or the clipboard as temporary point layers in the project CRS.
+about[ja]=ローカルのタイルフォルダを登録し、内蔵のローカルタイルサーバー経由で表示します（高速読み込み・白い余白の透過）。x / y または経度・緯度の列を持つ属性テーブルを、データベース・ファイル・クリップボードから、プロジェクトの座標系の一時点レイヤとして取り込めます。
+version=1.1.0
+author=Rikuto Arita
+email=panyoricomeha6466@gmail.com
+category=Raster
+experimental=True
+icon=icon.svg
+homepage=https://github.com/panyoricomeha/QGIS-Plugin-TileCompare
+tracker=https://github.com/panyoricomeha/QGIS-Plugin-TileCompare/issues
+repository=https://github.com/panyoricomeha/QGIS-Plugin-TileCompare.git
+tags=raster,xyz,tiles,points
